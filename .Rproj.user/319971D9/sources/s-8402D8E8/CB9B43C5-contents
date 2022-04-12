@@ -1,0 +1,22 @@
+---
+title: "Wrange-data"
+output: html_notebook
+---
+```{r}
+library (tidyverse)
+```
+
+```{r}
+murders <- read.csv("data/murders.csv")
+head(murders)
+```
+
+```{r}
+murders <- murders %>% mutate(region = factor(region), rate = total / population * 10^5)
+head(murders)
+```
+
+```{r}
+save (murders, file = "rda/murders.rda")
+```
+

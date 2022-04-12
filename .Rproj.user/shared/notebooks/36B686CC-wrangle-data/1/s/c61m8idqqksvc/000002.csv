@@ -1,0 +1,2 @@
+"0","murders <- murders %>% mutate(region = factor(region), rate = total / population * 10^5)"
+"0","head(murders)"

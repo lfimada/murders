@@ -1,0 +1,22 @@
+---
+title: "analysis"
+output: html_notebook
+---
+
+```{r, include = FALSE}
+library (tidyverse)
+library (ggplot2)
+```
+
+```{r}
+load ("rda/murders.rda")
+head (murders)
+```
+```{r}
+murders %>% mutate(abb = reorder (abb, rate)) %>% ggplot(aes(abb, rate)) + geom_bar(width = 0.5, stat = "identity", color = "blue") + coord_flip()
+```
+```{r}
+ggsave ("figs/barplot.png")
+```
+
+

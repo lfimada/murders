@@ -1,0 +1,28 @@
+{
+    "id": "6EEF87F9",
+    "path": "C:/Users/lfima/projects/murders/analysis.Rmd",
+    "project_path": "analysis.Rmd",
+    "type": "r_markdown",
+    "hash": "1568360144",
+    "contents": "",
+    "dirty": false,
+    "created": 1649425471460.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "18,27",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1649425948,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1649425948812,
+    "read_only": false,
+    "read_only_alternatives": []
+}

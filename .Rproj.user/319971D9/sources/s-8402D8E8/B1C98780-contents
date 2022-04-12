@@ -1,0 +1,28 @@
+---
+title: "Git and Github"
+output: html_notebook
+---
+
+Iniciar uma pasta no git
+```{}
+~/projects/murders
+$ git init
+```
+
+Adicionar um arquivo no git local
+```{}
+ ~/projects/murders (master)
+$ git add README.txt
+```
+
+Conectar no Github
+```{}
+Fernando Imada@LAPTOP-U3H5S64O MINGW64 ~/projects/murders (master)
+$ git remote add origin https://github.com/lfimada/murders.git
+```
+
+Enviar arquivo que está commitado para o repositorio no Github
+```{}
+git push
+```
+
